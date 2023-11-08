@@ -1,7 +1,7 @@
 # Ecommerce_Olist-store-Analysis
 
 ## Presentation
-Link to [Google slides](https://docs.google.com/presentation/d/1v0Peu1mknfhY74Vh4-TtTokyAE6-vQw2/edit#slide=id.p2)
+Link to  [https://drive.google.com/file/d/17A8aRHBp_vnA2rq6GROMgPe8aJGUqnu4/view?usp=drive_web]
 
 ## Overview of Project:
 
