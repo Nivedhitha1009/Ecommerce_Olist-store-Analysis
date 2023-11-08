@@ -85,9 +85,15 @@ Data Cleaning in Power Query
 
 ## Step 2:Merging Of Datasets
 
-1] 
+1] In order to get the KPI1 we need to merge the Olist_orders dataset and olist_Payments dataset 
 
+2] merging of 3 datasets olist orders datase ,olist reviwe dataset and olist payments dataset to get Payment type of credit card  with review score of 5
 
+3] merged 2 datasets Olist orders dataset and olist products dataset to get Average delivery days for pet Shop
+
+4] merging of 3 datasets Customers dataset,Olist_Order_items ,and Olist Payment dataset in order to get Average Price and Average Payment of Sao_Paulo city
+
+5]merging of 2 datasets Olist Orders dataset and olist_reviwes dataset to get Average Shipping Days vs review scores
 
 
 ## Step 3: Transform 
@@ -102,15 +108,41 @@ Data Cleaning in Power Query
 
 [Link to Olist store Schema](`olist_store`)
 
+## Creating Data Visualizations
 
+## KPI1
 
+Now to find the Payment values for weekend vs weekday ,Firstly duplicated the purchase timestamp transform to days of the week and  renamed to purchase days.Now I created a custom column for purchase days used if else formula . And to verify if it is working, I m represented this KPI in Donut chart of weekname and Payment values
 
+  ![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/0e46fa16-9c93-40db-a95c-499de9a3557e)
 
+## KPI2
 
+ There are 4 types of payment types, and since orders of review score of 5 are asked, I selected a Waterfall chart  for this KPI.
 
+![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/43ee5acf-7dec-47e2-b3a3-819d43f2676e)
 
+## KPI3
+To show this KPI I simply created a gauge chart, now to provide more insights for product category and Average days taken to deliver 
 
+![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/de34826e-bbd6-4025-b2c9-23af73312c2d)
 
+## KPI4
+
+Represented this KPI with the help of Stacked column bar chart and analysed that the  Average payment is high compared to Avg price for Sao paulo city 
+
+![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/75c77514-20ce-4dc5-a64d-2f3f4a76d701)
+
+## KPI5
+
+Represented this KPI with the help of Area chart with the visualization that shipping days is more for review score 1.
+As the number of Shipping days to deliver the orders increases the review score decreases.
+
+![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/b55e167e-32b0-4563-acfc-a8e88d1e6535)
+
+# Dashboard
+
+[Link to Dashboard on Tableau ](https://public.tableau.com/views/Ecommercestoreanalysis_16984286588070/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 
