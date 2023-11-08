@@ -106,7 +106,7 @@ Data Cleaning in Power Query
 
 # My SQL Queries
 
-[Link to Olist store Schema](`olist_store`)
+[Link to Olist store Schema](https://github.com/Nivedhitha1009/Olist-Database-_Schemas/blob/main/Ecommerce%20Olist%20Analysis%20Sql.sql)
 
 ## Creating Data Visualizations
 
