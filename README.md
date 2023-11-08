@@ -144,6 +144,7 @@ As the number of Shipping days to deliver the orders increases the review score 
 
 [Link to Dashboard on Tableau ](https://public.tableau.com/views/Ecommercestoreanalysis_16984286588070/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
+[Link to Dashboard on Power Bi](https://www.novypro.com/project/ecommerceolist-store-analysis)
 
 
 
