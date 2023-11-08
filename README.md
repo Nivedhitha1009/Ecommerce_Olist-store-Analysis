@@ -70,6 +70,34 @@ olist_product_category_name_translation: This table is connected to products dat
 Individual datasets were cleaned using Power Query in a Power bi  before importing the data tables to  powerbi.
 SQL left  joins were used to connect relevant  data tables for our My Sql.
 
+# Data Cleaning 
+Data Cleaning in Power Query
+
+![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/f21e7fb1-d7f6-4d7b-850d-b19ca19f5360) 
+
+## Step 1: Remove Blank And Null values 
+
+1] I cleaned the data in Excel before importing it to PowerBI, I explored the data to find any inconsistencies, duplicates, incorrect format, or missing values. I’ll share some of the inconsistencies and incorrect format I found and how I corrected them, for example in the customer dataset city names were in lower case I used the proper formula and with the help of the helper column I replaced the values.  
+
+2] In the orders dataset, there was some Null Values in order_purchase timestamp,order delivery customer date , and each order id is unique hence I removed those blank rows and remove duplicates . In this way, I cleaned the all 9 datasets and then imported the files into PowerBI.
+
+3] In the product dataset, there was some empty product category name, and each product id is unique hence I removed those blank rows. In this way, I cleaned the dataset and then imported the files into PowerBI.
+
+## Step 2:Merging Of Datasets
+
+1] 
+
+
+
+
+## Step 3: Transform 
+
+1] After Cleaned all the files, I created some extra columns while referencing the order purchase timestamp column to get insight into the day, month, and year of order like day of week, weekend/weekday in the order dataset.
+
+2] For calculating Shipping days With reference of Order purchase time stamp and Order deliver customer date i created customn column renamed to Shipping days in power query applied a formula and there after converted that custom column to Days by rightclick on the column 
+
+3] in order to calculate Average Days with reference to order delivery customer table.duplicate the order delivary customer date column ,renamed to Delivery Days and finally tranform to days by right click on the column 
+
 # My SQL Queries
 
 [Link to Olist store Schema](`olist_store`)
